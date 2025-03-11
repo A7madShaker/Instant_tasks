@@ -1,0 +1,101 @@
+What are High-Level Languages?
+
+One can easily interpret and combine these languages as compared to the low-level languages.
+They are very easy to understand.
+Such languages are programmer-friendly.
+Debugging is not very difficult.
+They come with easy maintenance and are thus simple and manageable.
+One can easily run them on different platforms.
+They require a compiler/interpreter for translation into a machine code.
+A user can port them from one location to another.
+Such languages have a low efficiency of memory. So it consumes more memory than the low-level languages.
+They are very widely used and popular in today’s times.
+Java, C, C++, Python, etc., are a few examples of high-level languages.
+
+
+What are Low-Level Languages?
+
+They are also called machine-level languages.
+Machines can easily understand it.
+High-level languages are very machine-friendly.
+Debugging them is very difficult.
+They are not very easy to understand.
+All the languages come with complex maintenance.
+They are not portable.
+These languages depend on machines. Thus, one can run it on various platforms.
+They always require assemblers for translating instructions.
+Low-level languages do not have a very wide application in today’s times
+
+
+
+difference between Scripting and Programming Languages
+
+Basically, all scripting languages are programming languages. The theoretical difference between the two is that scripting languages do not require the compilation step and are rather interpreted.
+ For example, normally, a C program needs to be compiled before running whereas normally, a scripting language like JavaScript or PHP need not be compiled.   
+
+Generally, compiled programs run faster than interpreted programs because they are first converted native machine code. Also,
+ compilers read and analyze the code only once, and report the errors collectively that the code might have,
+ but the interpreter will read and analyze the code statements each time it meets them and halts at that very instance if there is some error.
+ In practice, the distinction between the two is getting blurred owing to improved computation capabilities of the modern hardware and advanced coding practices.   
+
+Another point to be noted is that while classifying a language as scripting language or programming language,
+ the environment on which it would execute must be taken into consideration. The reason why this is important is that we can design an interpreter for C language and use it as a scripting language,
+ and at the same time, we can design a compiler for JavaScript and use it as a non-scripting(compiled language). A live example of this is V8, the JavaScript engine of Google Chrome,
+ which compiles the JavaScript code into machine code, rather than interpreting it.   
+
+Some scripting languages traditionally used without an explicit compilation step are JavaScript, PHP, Python, VBScript.   
+
+Some programming languages traditionally used with an explicit compilation step are C, C++.  
+
+
+
+What Is Open Source Software?
+Open source software, often abbreviated as OSS, is an intriguing part of the tech world. To fully understand it, we need to take a step back and explore the concept of ‘source code.’
+ Source code is the fundamental component of software. It’s the behind-the-scenes instruction set written in a human-readable programming language that tells software how to function.
+
+The term ‘open source’ refers to software whose source code is freely available to the public
+ The Open Source Initiative (OSI) describes it as software that can be freely used, changed, and shared (in modified or unmodified form) by anyone. 
+
+
+What Is Closed Source Software?
+At the other end of the software spectrum, you’ll find closed source software.
+ This type of software can also be referred to as proprietary software.
+
+The key difference between open and closed source is the accessibility of the source code.
+ In the case of closed source software, the source code is not publicly available.
+
+
+
+Supporting OOP:
+
+Definition:
+A language that "supports OOP" provides language constructs and features that enable developers to implement the fundamental OOP concepts.
+Key Features:
+Encapsulation: The ability to bundle data (attributes) and methods (functions) that operate on that data into a single unit called a "class." Access control mechanisms (like public, private, and protected) are provided.
+Inheritance: The ability to create new classes (derived classes or subclasses) that inherit properties and behaviors from existing classes (base classes or superclasses). This promotes code reuse and establishes "is-a" relationships.
+Polymorphism: The ability of objects of different classes to respond to the same method call in their own specific ways. This allows for flexibility and extensibility.
+Abstraction: The ability to hide complex implementation details and expose only essential information to the user. This simplifies the interface and reduces complexity.
+Examples:
+Java
+C++
+Python
+C#
+Ruby
+Not Supporting OOP:
+
+Definition:
+A language that "does not support OOP" lacks the language features necessary to directly implement the core OOP principles. These languages might use different programming paradigms.
+Characteristics:
+Often procedural or functional in nature.
+Data and functions are typically treated as separate entities.
+Lack of built-in mechanisms for encapsulation, inheritance, and polymorphism.
+Examples:
+C (primarily procedural, though some OOP-like patterns can be emulated)
+Fortran (primarily procedural)
+Assembly language.
+Older versions of basic.
+Important Considerations:
+Some languages might allow for some OOP-like patterns through workarounds or conventions
+, even if they don't have direct OOP support. However, they are not considered true OOP languages.
+There are functional programming languages that contain features that can solve many of the same problems that OOP solves,
+ just with a different approach.
